@@ -1,0 +1,33 @@
+React Router is library that lets me create multiple pages (routes) in a singlw page React app.
+(Note: Without React Router my  app wont feel like it has differnt pages even when the url is chnaged)
+
+{ Want Practice Project Ideas?
+Portfolio website with routes: /home, /projects, /skills, /contact
+
+Blog with /posts, /posts/:id (learn about dynamic routing later)
+
+If you want me to build a small project live using React Router, just say "Show me a full example", and I’ll give you a working copy-paste example.}
+
+
+in React Router
+
+<Link></Link>
+it is like <a> attribute but does not reload the page when link is clicked
+in place of "href" here "to" 
+
+
+<NavLink></NavLink>
+its like Link nut adds class when link is automatiicaly gets activ class
+
+ <NavLink
+        className={() =>
+            `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+        }
+    >
+        Home
+    </NavLink>
+
+written inside backticks and in callback function ->
+it give argument {isActive}
+it checks wethere the link is active ot not means tab that tab is open or not it mat=tche the url with tab url if its matched then conditionally style the 
+`${isactive?'bg-orange-700':'bg-grey-700'}`

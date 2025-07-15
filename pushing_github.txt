@@ -1,0 +1,92 @@
+Great! Since you already have your GitHub profile: [https://github.com/JYOTI-KARAGI](https://github.com/JYOTI-KARAGI), here’s how you can push your **Currency Converter App** to a new GitHub repository under that profile:
+
+---
+
+### 🔁 STEP-BY-STEP (with your profile)
+
+#### ✅ Step 1: Create a New Repository on GitHub
+
+1. Go to [https://github.com/JYOTI-KARAGI](https://github.com/JYOTI-KARAGI)
+2. Click on **"Repositories" → "New"**
+3. Fill the form:
+
+   * **Repository name**: `currency-converter-app` (or anything else)
+   * **Keep it Public**
+   * **DON’T** check “Initialize with README”
+4. Click **"Create repository"**
+
+---
+
+#### ✅ Step 2: Open Terminal in Your Local Project
+
+```bash
+cd path/to/your/project-folder
+```
+
+---
+
+#### ✅ Step 3: Initialize Git (if not already)
+
+```bash
+git init
+```
+
+---
+
+#### ✅ Step 4: Add Files and Commit
+
+```bash
+git add .
+git commit -m "Initial commit"
+```
+
+---
+
+#### ✅ Step 5: Add Your GitHub Remote URL
+
+Replace this with your actual repo URL (from Step 1):
+
+```bash
+git remote add origin https://github.com/JYOTI-KARAGI/currency-converter-app.git
+```
+
+---
+
+#### ✅ Step 6: Push to GitHub
+
+```bash
+git branch -M main
+git push -u origin main
+```
+
+> It will ask for GitHub credentials or GitHub token (if prompted). Make sure you’re logged in.
+
+---
+
+#### ✅ Step 7: Confirm
+
+Visit your repo:
+👉 `https://github.com/JYOTI-KARAGI/currency-converter-app`
+You should see all your files there now.
+
+---
+
+### ✅ Optional Final Touches
+
+1. Add a `.gitignore` (to ignore `node_modules`):
+
+```bash
+node_modules/
+dist/
+.env
+```
+
+2. Add a `README.md` with your project overview (I can generate it for you).
+
+---
+
+Let me know if you want to:
+
+* Connect it to **Vercel** or **Netlify**
+* Add a nice **project description**
+* Or get help with a **professional `README.md`**.
