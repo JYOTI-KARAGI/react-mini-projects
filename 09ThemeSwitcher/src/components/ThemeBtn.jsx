@@ -24,7 +24,7 @@ const onchangeBtn=(e)=>{
                 value=""
                 className="sr-only peer"
                 onChange={onchangeBtn}
-                // if it is checked then make thememode dark
+                // if it is checked then make thememode dark means checkbox is true
                 checked={themeMode==="dark"}
             />
             <div className="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4

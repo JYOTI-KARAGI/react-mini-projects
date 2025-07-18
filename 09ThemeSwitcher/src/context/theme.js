@@ -2,18 +2,18 @@
 import { useContext, createContext } from "react";
 
 export const themeContext=createContext({
-    // default value like blueprint
+    //  like blueprint , creatin gcontext object with default values
     // createContext the values may both methods or string  
     themeMode:"light",
-    darkTheme:()=>{},
+    darkTheme:()=>{}, //placeholder for function to switch to dark mode
     lightTheme:()=>{},
 
 })
 
-// directly exporting provider
+// directly exporting context provider to use in app.jsx
 export const ThemeProvider=themeContext.Provider
 
-// in components rather than useContext(themeContext) we can just use useTheme
+// in components rather than useContext(themeContext) we can just use custom hook useTheme
 export default function useTheme(){
     return useContext(themeContext);
 }

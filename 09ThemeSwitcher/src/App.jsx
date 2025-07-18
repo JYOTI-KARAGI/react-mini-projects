@@ -21,6 +21,7 @@ function App() {
 
   useEffect(()=>{
     const Mode=document.querySelector('html');
+    // darkMode:'class' in html tag
     Mode.classList.remove("light","dark");
     Mode.classList.add(themeMode);
   },[themeMode])

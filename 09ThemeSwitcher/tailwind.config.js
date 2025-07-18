@@ -4,7 +4,8 @@ export default {
       "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
-  // to enable the tailwind functionality
+  // to enable the dark mode based on calss on<html>
+
   darkMode:"class",
   theme: {
     extend: {},
